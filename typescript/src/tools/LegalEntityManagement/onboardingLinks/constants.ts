@@ -16,7 +16,8 @@ export const CREATE_HOSTED_ONBOARDING_LINK_DESCRIPTION = `Returns a link to an A
     Notes:
         - The 'id' parameter is mandatory and part of the URL path.
         - The generated URL expires after 4 minutes and can only be used once. If the link expires, you need to create a new one.
-        - The link can be used by account holders to fix their legal entity details, updat their bank account, and upload documents. 
+        - The link can be used by account holders to fix their legal entity details, update their bank account, and upload documents. 
+        - If asked for help fixing an issue with a legal entity, transfer instrument, bank account, document, or account holder information, you can use this tool to generate a new link for the user.
     
     Examples:
         create_hosted_onboarding_link({id: "LEXXXXXXXXXXXXXXXXXXXXXXXXX", locale: "en-US", redirectUrl: "https://your-company.example.com", themeId: "THEMEXXXXXXXXXXXXXXXXXXXXXXXX"})
