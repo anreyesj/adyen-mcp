@@ -7,7 +7,7 @@
   },
   "author": "Adyen",
   "bin": {
-    "mcp": "./dist/index.js"
+    "mcp": "./dist/src/index.js"
   },
   "contributors": [
     "Leonardo Galesky <devrel@adyen.com>",
