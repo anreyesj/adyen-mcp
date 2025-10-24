@@ -5,7 +5,7 @@ export const GET_LEGAL_ENTITY_DESCRIPTION = `Gets all of the details about a leg
         id (string): The unique identifier of the legal entity
 
     Returns:
-        object | string: The Adyen API response object reflecting the legal entity details.
+        object: The Adyen API response object reflecting the legal entity details.
 
     Notes:
         - Corresponds to the Adyen Legal Entity Management API \`GET /legalEntities/{id}\` endpoint.
