@@ -9,7 +9,7 @@ export const CREATE_HOSTED_ONBOARDING_LINK_DESCRIPTION = `Returns a link to an A
         themeId (str, optional): The unique identifier of the hosted onboarding theme.
 
     Returns:
-        str: The raw response from the Adyen API, containing the OnboardingLink object with the hosted onboarding page 'url'.
+        object: The raw response from the Adyen API, containing the OnboardingLink object with the hosted onboarding page 'url'.
 
     Purpose: Users utilize hosted onboarding links to view and edit their legal entity details, update and create transfer instruments and bank details, and upload documents. If needed, the user can utilize this to fix problems surfaced in the GET legalEntities problems[] array. 
     
